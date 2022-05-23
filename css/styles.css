@@ -11,6 +11,7 @@
 
 .header {
     background-color: #ffffff;
+    text-transform: none;
 }
 
 .body {
@@ -75,6 +76,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contact-item {
@@ -88,6 +90,7 @@
     height: 50px;
     left: 700px;
     top: 430px;
+    cursor: pointer;
 }
 
 .second-title {
@@ -129,7 +132,6 @@
 
 .team-text {
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -182,4 +184,16 @@
 .footer-contact:hover {
     background-color: #2f303a;
     color: #2196F3;
+}
+
+.current {
+    color: #2196F3;
+}
+
+.logo-accent {
+    color: black;
+}
+
+.logo-accent-footer {
+    color: #ffffff;
 }
